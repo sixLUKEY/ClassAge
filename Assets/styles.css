@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700;800;900&display=swap');
+
+header{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    border: solid 8px black;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000; */
+    /* text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000; */
+}
+
+h1 {
+    margin: 0;
+}
+/* table{
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding: 10px 10px;
+
+}
+table, th, td {
+    border: 2px solid black;
+  }
+th{
+    border-radius: 999px;
+    background-color: aqua;}
+td{
+    border-radius: 999px;
+} */
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+* {
+    padding: 0;
+}
+
+
+.mu21, .mo21, .fu21, .fo21{
+    transition: 0.3s;
+}
+
+.mu21:hover{
+    background-color: rgb(89, 89, 89);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.282); 
+}
+
+.mo21:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.282); 
+}
+
+.fu21:hover{
+    background-color: rgb(225, 50, 50);
+    color: white;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.282); 
+}
+
+.fo21:hover{
+    background-color: rgb(198, 50, 126);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.282); 
+}
+
+
+/* 
+.tableDiv{
+    border:solid 5px black;
+} */
+
+.m-f{
+    margin-top: 80px;
+    border: solid 5px black;
+    padding-left: 45px;
+    font-weight: bold;
+}
+
+.males{
+   
+        list-style: none;
+        padding: 10px 30px;
+        background-image: url(image/Male.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+        scale: 150%;
+        margin-right: 50px;
+    }
+    
+
+
+.females{
+        list-style: none;
+        padding: 10px 30px;
+        background-image: url(image/Female.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 20px;
+        scale: 150%;
+    }
+
+
+div{
+    display: flex;
+    justify-content: center ;
+}   
+
+table {
+    border-collapse: collapse;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    font-family: 'Roboto Slab', serif;
+    min-width: 400px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 700;
+  }
+ 
+  th{
+    background-color: #fffcfc;
+    color: #000000;
+    border: solid 5px black;
+    font-weight: bolder;
+  }
+ th, td {   
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+ }
+
+
+table, tr {
+    background-color: #ffffff;
+}
+
+
+td {
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.282);  
+    font-weight: bolder;
+    
+}
+
+.tableDiv{
+    display: flex;
+    align-items: baseline;
+    translate: -73px;
+}
+
+
+.mu21, .mo21, .fu21, .fo21{
+    transition: 0.3s;
+}
+
+.mu21:hover{
+    background-color: rgb(89, 89, 89);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 10px 0 rgba(255, 255, 255, 0.148), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.148);
+}
+
+.mo21:hover{
+    color: white;
+    background-color: black;
+    box-shadow: inset 6px 6px 10px 0 rgba(255, 255, 255, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.333);
+}
+
+
+.fu21:hover{
+    background-color: rgb(225, 50, 50);
+    color: white;
+    box-shadow: inset 6px 6px 10px 0 rgba(255, 255, 255, 0.2), inset -6px -6px 10px 0 rgba(0, 0, 0, 0.333);
+}
+
+.fo21:hover{
+    background-color: rgb(198, 50, 126);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 10px 0 rgba(255, 255, 255, 0.108), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.24);
+}
+
+.key{
+    translate: -50px;
+}
+
+.key-word{
+    font-weight: 900;
+    translate: -40px 10px;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.key-list {
+    translate: 0 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+
+}
+
+li {  
+    list-style-type: none;
+  }
+
+.mu21l::before {content: "•"; color: rgb(89, 89, 89);
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  font-size: xxx-large;
+  
+}
+
+.mo21l::before {content: "•";
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  font-size: xxx-large;
+}
+
+.fu21l::before {content: "•"; color: rgb(225, 50, 50);
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  font-size: xxx-large;}
+
+.fo21l::before {content: "•"; color: rgb(198, 50, 126);
+  display: inline-block; width: 1em;
+  margin-left: -1em;
+  font-size: xxx-large;}
